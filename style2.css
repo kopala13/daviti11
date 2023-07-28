@@ -1,0 +1,88 @@
+.sussybakaislegend
+{color: lawngreen;
+font-size: 50px;
+text-align:center;
+font-family: cursive;}
+.sus
+{background-color: rgb(33, 13, 164);}
+.suiiiiii
+{color: lawngreen;
+text-align:center;
+font-size: 15px;
+font-family: cursive;}
+.joebaiden
+{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+footer
+{text-align: center;
+font-family: cursive;
+background-color: lawngreen;
+font-size: 25px;
+color: blue;}
+p::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+p:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+p::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background:rgb(1, 1, 0);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+p {
+  position: relative;
+  font-size: 8rem;
+}
+
+html {
+  block-size: 100%;
+  inline-size: 100%;
+}
+body{
+    text-align: center;
+}
+
+nav{
+    float:right;
+}
+ nav a{
+    color: rgb(33, 13, 164);;
+   background-color:  rgb(243, 177, 10);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a{
+    color: rgb(130, 247, 14);
+    background-color: blue;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     text-decoration: none;
+     font-size: 18px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+     font-family: Arial, Helvetica, sans-serif;
+    
+}
